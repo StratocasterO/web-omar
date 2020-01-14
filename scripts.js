@@ -1,3 +1,11 @@
+if (String(location.href).includes(".cat")){
+    // loads catalan content
+
+} else if (String(location.href).includes("/en")){
+    // loads english content
+    
+}
+
 // once loaded, add click listeners:
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#fis").addEventListener("click", fis)
