@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Omar Olmedo Ferrer</title>
 	<link rel="shortcut icon" href="img/logo.png" type="image/png"/>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="./style.css"/>
 	<script src="https://kit.fontawesome.com/73151b44f6.js" crossorigin="anonymous"></script>
 	<script src="scripts.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
