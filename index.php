@@ -33,10 +33,10 @@
 			<p>Él/he/him</p>
 		</div>
 		<div id="cards">
-			<div class="card" id="fis"><img id="math" src="img/matematicas.svg" alt=""> <br> Físico</div>
-			<div class="card" id="for"><img src="img/creatividad.svg" alt=""> <br> Formador</div>
-			<div class="card" id="pro"><img id="dato" src="img/dato.svg" alt=""> <br> Programador</div>
-			<div class="card" id="mus"><img src="img/trombon.svg" alt=""> <br> Músico</div>
+			<a href="#fisico"><div class="card" id="fis"><img id="math" src="img/matematicas.svg" alt=""> <br> Físico</div></a>
+			<a href="#formador"><div class="card" id="for"><img src="img/creatividad.svg" alt=""> <br> Formador</div></a>
+			<a href="#programador"><div class="card" id="pro"><img id="dato" src="img/dato.svg" alt=""> <br> Programador</div></a>
+			<a href="#musico"><div class="card" id="mus"><img src="img/trombon.svg" alt=""> <br> Músico</div></a>
 		</div>
 		<p>
 			Esta es la home page. <!-- TO DO -->

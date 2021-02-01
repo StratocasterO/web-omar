@@ -4,6 +4,9 @@
 	font-family: Quicksand;
 	font-weight: 300;
 }
+html{
+	scroll-behavior: smooth;
+}
 header{
 	background-color: #204267;
 	height: 200px;
@@ -89,6 +92,9 @@ main{
 	padding: 0 40px 0 40px;
 	margin-bottom: 100px;
 	width: 1240px;
+}
+#cards a{
+	text-decoration: none;
 }
 .card{
 	background-color: white;
