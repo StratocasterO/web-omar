@@ -26,6 +26,7 @@ header{
 	text-align: right;
 	font-size: 50px;
 	margin-bottom: 20px;
+	margin-right: 30px;
 }
 .menu{
 	margin-top: 16px;
@@ -53,6 +54,7 @@ header{
 	text-align: right;
 	max-width: 1240px;
 	margin: auto;
+	padding-right: 30px;
 }
 .lang a{
 	color: white;
@@ -65,21 +67,22 @@ header img{
 	border-width: 8px;
 	border-color: #ffc555;
 	border-style: solid;
-	width: 200px;
-	height: 200px;
+	max-width: 200px;
+	min-height: 200px;
+	margin-left: 30px;
 }
 main{
 	padding: 20px 0px 20px 0px;
-	width: 1240px;
+	max-width: 1240px;
 	margin: auto;
-	text-align: justify;
-	width: 1240px;
+	/* text-align: justify; */
 }
 .resum{
 	padding-left: 270px;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	font-size: 24px;
 	color: #204267;
+	margin-right: 30px;
 }
 .resum p{
 	padding: 10px 0 10px 0;
@@ -87,11 +90,11 @@ main{
 #cards{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap; /* doesn't work */
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	padding: 0 40px 0 40px;
 	margin-bottom: 100px;
-	width: 1240px;
+	max-width: 1240px;
 }
 #cards a{
 	text-decoration: none;
@@ -117,6 +120,7 @@ main{
 	font-weight: 500;
 	font-size: 24px;
 	cursor: pointer;
+	margin: 10px;
 }
 .card img{
 	height: 180px;
@@ -165,4 +169,16 @@ footer a{
 	font-size: 50px; 
 	color: white;
 	text-align: center;
+}
+
+@media (max-width: 800px) {
+  .name{
+  	font-size: 35px
+  }
+}
+
+@media (max-width: 650px) {
+  .name{
+  	font-size: 25px
+  }
 }
